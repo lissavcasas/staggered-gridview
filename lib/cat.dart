@@ -36,7 +36,8 @@ class _MyCustomLayoutState extends State<MyCustomLayout> {
                     )
                   ],
                 ),
-              )),
+              )
+              ),
           staggeredTileBuilder: (int index) => StaggeredTile.fit(1),
         ),
     );
